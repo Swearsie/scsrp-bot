@@ -1,3 +1,7 @@
+const keepAlive = require("./server.js")
+
+keepAlive()
+
 const fs = require('fs');
 const readline = require('readline');
 
